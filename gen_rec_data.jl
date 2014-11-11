@@ -14,7 +14,7 @@ nD = D[1:N, 1:end]
 
 #nD = convert(Array{Int64, 2}, nD)
 
-println("computing P")
+println("computing P - the similarity matrix")
 P = nD * nD'
 
 println("normalizing P")
