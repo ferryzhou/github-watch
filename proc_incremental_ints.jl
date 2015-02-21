@@ -128,3 +128,10 @@ function get_id(s, s2i, i2s)
   i
 end
 
+#######
+# (TODO) generate top N repo top M rec json products for embedding in html
+# need cutted repo_id2url, repo_url2id, repo_repos
+
+function gen_topNM_jsons(ri::RecIndex, N, M, dst_dir)
+
+end
